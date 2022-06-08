@@ -4,7 +4,7 @@ CREATE DATABASE SpotifyClone;
 CREATE TABLE SpotifyClone.plans(
   plan_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   plan_name VARCHAR(100) NOT NULL,
-  plan_price DOUBLE NOT NULL
+  plan_price DECIMAL(5, 2) NOT NULL
 );
 
 CREATE TABLE SpotifyClone.artists (
