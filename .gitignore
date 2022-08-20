@@ -1,4 +1,21 @@
 node_modules/
 
-# VSCode repo settings
 .vscode
+
+.trybe
+
+.github
+
+desafio1.json
+
+jest.config.js
+
+trybe.yml
+
+.editorconfig
+
+.eslintrc.json
+
+.eslintignore
+
+tests
